@@ -4,6 +4,9 @@
     <div class="card-body">
       <p>kind:  {{route.params.kind}}</p>
       <p>color: {{route.params.color}}</p>
+      <hr/>
+      <p>kind:  {{route.query.kind}}</p>
+      <p>color: {{route.query.color}}</p>
     </div>
   </div>
 </template>
