@@ -1,4 +1,5 @@
 import { createStore } from "vuex";
+import counter from "./counter";
 
 export default createStore({
   // 루트상태 정의
@@ -39,5 +40,7 @@ export default createStore({
         });
     },
   },
-  modules: {},
+  modules: {
+    counter,
+  },
 });
